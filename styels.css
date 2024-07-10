@@ -22,6 +22,7 @@ nav{
     margin-top: 50px;
     margin: 0 auto;
     background-image: url('assets/Hero-bg.png');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -150,6 +151,7 @@ nav{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-left: 150px;
 
 }
 .target-content h1{
@@ -195,4 +197,43 @@ nav{
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
     padding: 20px;
+}
+/* background image second styles */
+.background-image-container{
+    width: 1140px;
+    height: 313px;
+    margin-top: 50px;
+    margin-left: 90px;
+    padding: 64px 48px 64px 48px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('assets/handshake.jpg');
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+.background-image-text{
+    width: 730px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: 120px;
+    margin-top: 50px;
+    gap: 30px;
+
+}
+.background-image-text h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+.background-image-text p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
 }
