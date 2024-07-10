@@ -72,7 +72,7 @@ nav{
 /* 2nd section style */
 .box-container{
     width: 1140px;
-    height: 1395px;
+    height: 895px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -103,4 +103,71 @@ nav{
 .box-item-img{
     display: flex;
 }
-
+/* youtube video link style */
+.yt-container{
+    width: 1140px;
+    height: 575px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+.yt-text{
+    width: 852px;
+    height: 113px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.yt-text h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+.yt-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
+.yt-video{
+    width: 1276px;
+    height: 550px;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+    border-radius: 16px;
+    margin: 10px 0px;
+    background: url(galib);
+    text-align: center;
+}
+/* my current target styles */
+.target-container{
+    width: 1140px;
+    height: 463px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+}
+.target-content h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+.target-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.target-cont{
+    width: 1140px;
+    height: 300px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
