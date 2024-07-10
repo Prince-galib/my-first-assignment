@@ -70,7 +70,9 @@ nav{
     
 }
 /* 2nd section style */
-.web-dev{
+.box-container{
+    width: 1140px;
+    height: 1395px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -78,22 +80,27 @@ nav{
     padding: 80px 97px 80px 97px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    margin: 40px 80px 40px 80px;
 }
-.web-1st{
+.box-con{
+    width: 852px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.box-content{
     width: 850px;
     height: 240px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-    gap10px
+    margin-top: 20px;
 }
-.web-2nd{
-    width: 850px;
-    height: 240px;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
+.box-item{
+    width: 477px;
+    height: 219px;
 }
+.box-item-img{
+    display: flex;
+}
+
